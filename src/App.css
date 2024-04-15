@@ -1,0 +1,72 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1A; /* Dark background for the whole page */
+    color: #CCCCCC; /* Light grey text, typical of console output */
+}
+
+/* Header styles */
+header {
+    background-color: #000000; /* Black background for the header */
+    color: #FFFFFF; /* White text */
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #555555; /* Slight contrast for the header bottom border */
+}
+
+/* Search bar container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.search-container input[type="search"] {
+    padding: 8px;
+    width: 300px; /* Fixed width for the search bar */
+    border: 1px solid #555;
+    background-color: #333;
+    color: #DDD;
+    border-radius: 2px;
+}
+
+.search-container button {
+    padding: 8px 16px;
+    margin-left: 8px; /* Small gap between the search bar and button */
+    background-color: #005F73;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+/* Table styles */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #555;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #444; /* Darker line for separation */
+    border-right: 1px solid #444; /* Darker line for separation */
+}
+
+th {
+    background-color: #222; /* Dark header cells */
+    color: #FFF;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #262626; /* Even darker background for alternate rows */
+}
+
+tr:hover {
+    background-color: #333333; /* Hover effect to highlight rows */
+}
